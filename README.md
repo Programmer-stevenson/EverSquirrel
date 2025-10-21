@@ -1,70 +1,192 @@
-# Getting Started with Create React App
+# 🌿 EverSquirrel Landscaping
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, full-stack web application for a professional landscaping business. Built with React and designed with a focus on user experience, responsive design, and stunning visual effects.
 
-## Available Scripts
+![EverSquirrel Banner](public/favicon.png)
 
-In the project directory, you can run:
+## 🚀 Project Overview
 
-### `npm start`
+EverSquirrel is a comprehensive landscaping business website featuring:
+- Interactive hero slideshow with smooth transitions
+- Responsive mobile-first design
+- Advanced hamburger menu with glassmorphism effects
+- Service showcase sections
+- Contact form integration
+- Modern UI/UX with gradient accents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Frontend
+- **React 19.2.0** - Modern React with hooks and functional components
+- **Tailwind CSS** - Utility-first CSS framework via CDN
+- **Responsive Design** - Mobile-first approach with breakpoints for all devices
+- **Advanced Animations** - Smooth transitions, blur effects, and hover states
+- **Glassmorphism UI** - Modern frosted glass aesthetic
+- **Interactive Components** - Dynamic slideshow, animated menu, smooth scrolling
 
-### `npm test`
+### Design Highlights
+- 🎨 Orange & Emerald gradient color scheme
+- 📱 Fully responsive navigation with premium mobile menu
+- 🖼️ Auto-advancing image slideshow with manual controls
+- 💳 Card-based service sections with hover effects
+- 📝 Professional contact form
+- 🎯 Smooth section transitions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+**Frontend:**
+- React 19.2.0
+- React DOM 19.2.0
+- Tailwind CSS (CDN)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Development:**
+- React Scripts 5.0.1
+- Node.js
+- Git & GitHub
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Future Additions (Planned):**
+- Backend API (Node.js/Express)
+- Database integration (MongoDB/PostgreSQL)
+- Form submission handling
+- Email notifications
+- Admin dashboard
+- CMS integration
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📦 Installation
 
-### `npm run eject`
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository:**
+```bash
+git clone https://github.com/Programmer-stevenson/EverSquirrel.git
+cd EverSquirrel
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Install dependencies:**
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Add your images:**
+Place your images in the `public/images/` folder:
+- `courtyard.jpg`
+- `mower.jpg`
+- `wheel-barrell.jpg`
+- `aerial-landscape.jpg`
 
-## Learn More
+4. **Start the development server:**
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. **Open your browser:**
+Navigate to [http://localhost:3000](http://localhost:3000)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 Project Structure
 
-### Code Splitting
+```
+EverSquirrel/
+├── public/
+│   ├── index.html
+│   ├── favicon.png
+│   └── images/
+│       ├── courtyard.jpg
+│       ├── mower.jpg
+│       ├── wheel-barrell.jpg
+│       └── aerial-landscape.jpg
+├── src/
+│   ├── components/
+│   │   └── HeroSlideshow.jsx
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+├── .gitignore
+├── package.json
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🎯 Usage
 
-### Analyzing the Bundle Size
+### Available Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner
+- `npm run build` - Builds the app for production
+- `npm run eject` - Ejects from Create React App (one-way operation)
 
-### Making a Progressive Web App
+## 🎨 Customization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Colors
+The color scheme uses gradients between orange and emerald. To customize:
+- Edit the Tailwind config in `public/index.html`
+- Modify gradient classes in component files
 
-### Advanced Configuration
+### Content
+- **Services:** Edit service cards in `HeroSlideshow.jsx`
+- **Contact Info:** Update contact details in the Contact section
+- **Images:** Replace images in `public/images/`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🌐 Deployment
 
-### Deployment
+### Build for Production
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Deploy to Netlify/Vercel
+1. Connect your GitHub repository
+2. Set build command: `npm run build`
+3. Set publish directory: `build`
+4. Deploy!
 
-### `npm run build` fails to minify
+## 🚧 Roadmap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [ ] Backend API development
+- [ ] Database integration
+- [ ] Contact form submission handling
+- [ ] Email notification system
+- [ ] User authentication
+- [ ] Admin dashboard
+- [ ] Blog/Portfolio section
+- [ ] Testimonials section
+- [ ] Service booking system
+- [ ] Payment integration
+
+## 🤝 Contributing
+
+This is a personal project, but suggestions and feedback are welcome! Feel free to:
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 👨‍💻 Author
+
+**Brandon Stevenson**
+- GitHub: [@Programmer-stevenson](https://github.com/Programmer-stevenson)
+
+## 🙏 Acknowledgments
+
+- Design inspiration from modern landscaping websites
+- Tailwind CSS for the utility-first approach
+- React community for excellent documentation
+
+## 📞 Contact
+
+For questions or collaboration opportunities:
+- **Email:** info@eversquirrel.com
+- **Phone:** (555) 123-4567
+- **Location:** Los Angeles, CA
+
+---
+
+⭐ Star this repository if you find it helpful!
+
+**Status:** 🟢 Active Development | Last Updated: October 2025
